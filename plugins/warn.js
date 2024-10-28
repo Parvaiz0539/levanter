@@ -9,7 +9,7 @@ const {
 
 bot(
   {
-    pattern: 'warn ?(.*)',
+    pattern: 'new ?(.*)',
     desc: 'warn users in chat',
     type: 'group',
     onlyGroup: true,
