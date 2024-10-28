@@ -62,7 +62,7 @@ bot(
     // return await message.send(
     // 	await genButtonMessage(
     // 		[{ id: `warn reset ${user}`, text: 'RESET' }],
-    // 		`⚠️WARNING⚠️\n*User :* @${jidToNum(
+    // 		`⚠️`Beta sudhar jao idhr tmhare daal nhe galne waale`⚠️\n*User :* @${jidToNum(
     // 			user
     // 		)}\n*Warn :* ${count}\n*Remaining :* ${ctx.WARN_LIMIT - count}`
     // 	),
