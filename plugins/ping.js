@@ -2,14 +2,14 @@ const { bot } = require('../lib/')
 
 bot(
   {
-    pattern: 'plng ?(.*)',
+    pattern: 'ping ?(.*)',
     desc: 'To check ping',
     type: 'misc',
   },
   async (message, match) => {
     const start = new Date().getTime()
-    await message.send('```ruk yar!```')
+    await message.send('```ping!```')
     const end = new Date().getTime()
-    return await message.send('*ye le dekh!*\n ```' + (end - start) + '``` *ms*')
+    return await message.send('*pong!*\n ```' + (end - start) + '``` *ms*')
   }
 )
